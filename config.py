@@ -1,6 +1,9 @@
 import tweepy
 import os
 
+"""
+This function is used to access the api through tweepy
+"""
 def create_api():
     CONSUMER_KEY = os.environ.get('MY_CONSUMER_KEY')
     CONSUMER_SECRET = os.environ.get('MY_CONSUMER_SECRET')
