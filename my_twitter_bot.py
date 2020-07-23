@@ -29,7 +29,7 @@ def user_info(api):
 def main():
     api = create_api()
 
-    schedule.every().day.at("00:30").do(tweet_cases, api)
+    schedule.every().day.at("00:40").do(tweet_cases, api)
 
     # schedule.every(1).minutes.do(tweet_cases, api)
 
