@@ -2,7 +2,7 @@ appdirs==1.4.3
 beautifulsoup4==4.7.1
 betterpath==0.2.2
 bs4==0.0.1
-certifi==2020.6.20
+certifi==2022.12.7
 chardet==3.0.4
 Click==7.0
 distlib==0.3.0
